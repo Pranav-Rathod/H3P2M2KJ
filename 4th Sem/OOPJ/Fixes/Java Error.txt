@@ -1,6 +1,0 @@
-Problem :- incompleteClasspath in Java
-1. CMD+SHIFT+P (CTRL+SHIFT+P ON WINDOWS) to show command palette
-2. Choose "Java: Clean the Java language server workspace"
-3. Restart and Delete
-
-The declared package "" does not match the expected package "OOPJ"
