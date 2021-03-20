@@ -4,7 +4,7 @@ echo "Enroll No. : 91900103062"
 
 # ------------------------------------ #
 
-echo "Enter Principal Amount : "
+echo -n "Enter Principal Amount : "
 read P
 echo "Enter Rate : "
 read R
