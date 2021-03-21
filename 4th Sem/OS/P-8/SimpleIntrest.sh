@@ -1,3 +1,6 @@
+
+# Write a shell script to calculate simple interest
+
 clear
 echo "Name : Pranav Rathod"
 echo "Enroll No. : 91900103062"

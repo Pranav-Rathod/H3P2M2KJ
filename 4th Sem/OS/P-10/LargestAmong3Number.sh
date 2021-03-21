@@ -1,3 +1,6 @@
+
+# Write a shell script to find greater from two numbers
+
 clear
 echo "Name : Pranav Rathod"
 echo "Enroll No. : 91900103062"
