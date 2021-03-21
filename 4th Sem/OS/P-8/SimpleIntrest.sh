@@ -9,9 +9,9 @@ echo "Enroll No. : 91900103062"
 
 echo -n "Enter Principal Amount : "
 read P
-echo "Enter Rate : "
+echo -n "Enter Rate : "
 read R
-echo "Enter year : "
+echo -n "Enter year : "
 read N
 
 I=`expr $P \* $R \* $N`
