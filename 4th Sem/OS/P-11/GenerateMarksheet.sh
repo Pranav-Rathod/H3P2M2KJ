@@ -43,5 +43,5 @@ elif [ $Per -ge 50 ]
 then
 echo "Class : 2nd"
 else
-echo "Class : Fail"
+echo "Class : Not Good"
 fi
