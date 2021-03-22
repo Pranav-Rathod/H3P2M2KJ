@@ -16,10 +16,11 @@ read English
 echo -n "Enter Marks of Science Subject : "
 read Science
 
+clear
+
 echo -e "\n\nYour name is : $name"
 echo "Your Enroll No. is : $EnRoll"
 
-clear
 
 echo -e "\n:: Your obtained marks are below ::"
 echo "Computer : $computer out of 100"
@@ -32,13 +33,13 @@ Per=`expr $total / 3`
 echo -e "\nTotal Marks : $total out of 300"
 echo "Percentage : $Per %"
 
-if [ $total -lt 70]
+if [ $total -lt 70 ]
 then
 echo "Class : Distiction"
-elif [ $total -lt 60]
+elif [ $total -lt 60 ]
 then
 echo "Class : 1st"
-elif [ $total -lt 50]
+elif [ $total -lt 50 ]
 then
 echo "Class : 2nd"
 else
