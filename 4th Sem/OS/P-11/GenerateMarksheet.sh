@@ -33,13 +33,13 @@ Per=`expr $total / 3`
 echo -e "\nTotal Marks : $total out of 300"
 echo "Percentage : $Per %"
 
-if [ $total -lt 70 ]
+if [ $total -ge 70 ]
 then
 echo "Class : Distiction"
-elif [ $total -lt 60 ]
+elif [ $total -ge 60 ]
 then
 echo "Class : 1st"
-elif [ $total -lt 50 ]
+elif [ $total -ge 50 ]
 then
 echo "Class : 2nd"
 else
