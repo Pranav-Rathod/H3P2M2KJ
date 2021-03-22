@@ -29,6 +29,8 @@ echo "Science : $Science out of 100"
 
 total=`expr $computer + $English + $Science`
 Per=`expr $total / 3`
+SPI=`expr $Per / 10`
+
 
 echo -e "\nTotal Marks : $total out of 300"
 echo "Percentage : $Per %"
@@ -45,3 +47,16 @@ echo "Class : 2nd"
 else
 echo "Class : Not Good"
 fi
+
+case $Per in
+   7[0-9])
+   echo "Class : 2nd"
+   ;;
+   8[0-9])
+   echo "Class : 1st"
+   ;;
+   9[0-9]|100)
+   echo "Class : Distiction"
+   ;;
+   *) echo "Not Good"
+esac
