@@ -27,20 +27,20 @@ echo "English : $English out of 100"
 echo "Science : $Science out of 100"
 
 total=`expr $computer + $English + $Science`
-Avg=`expr $total / 3`
+Per=`expr $total / 3`
 
 echo -e "\nTotal Marks : $total out of 300"
-echo "Percentage : $Avg %"
+echo "Percentage : $Per %"
 
-if [ $total -lt 300 -a $total -gt 250 ]
+if [ $total -lt 70]
+then
+echo "Class : Distiction"
+elif [ $total -lt 60]
 then
 echo "Class : 1st"
-elif [ $total -lt 250 -a $total -gt 200 ]
+elif [ $total -lt 50]
 then
 echo "Class : 2nd"
-elif [ $total -lt 200 -a $total -gt 150 ]
-then
-echo "Class : 3rd"
 else
 echo "Class : Fail"
 fi
