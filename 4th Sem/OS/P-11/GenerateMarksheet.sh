@@ -49,13 +49,13 @@ echo "Class : Not Good"
 fi
 
 case $Per in
-   7[0-9])
+   5[0-9])
    echo "Class : 2nd"
    ;;
-   8[0-9])
+   6[0-9])
    echo "Class : 1st"
    ;;
-   9[0-9]|100)
+   7[0-9]|8[0-9]|9[0-9]|100)
    echo "Class : Distiction"
    ;;
    *) echo "Not Good"
