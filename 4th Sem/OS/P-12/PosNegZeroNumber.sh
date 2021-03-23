@@ -24,10 +24,10 @@ case $num in
    [0])
    echo "Using Switch Case - Number is Zero."
    ;;
-   [+$num])
+   [+$num][+$num])
    echo "Using Switch Case - Number is Positive"
    ;;
-   -[$num])
+   -[$num][-$num])
    echo "Using Switch Case - Number is Negative"
    ;;
    *) echo "Wrong input..!"
