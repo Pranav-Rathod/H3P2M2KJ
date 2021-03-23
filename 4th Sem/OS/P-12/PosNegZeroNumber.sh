@@ -12,23 +12,23 @@ read num
 
 if [ $num -eq 0 ]
 then
-echo "Number is Zero."
+echo "Using if-elif - Number is Zero."
 elif [ $num -lt 0 ]
 then
-echo "Number is Negative."
+echo "Using if-elif - Number is Negative."
 else
-echo "Number is Positive."
+echo "Using if-elif - Number is Positive."
 fi
 
 case $num in
-   [ $num -gt 0 ])
-   echo "Class : Positive"
+   [0])
+   echo "Using Switch Case - Number is Zero."
    ;;
-   [ $num -lt 0 ])
-   echo "Class : 1st"
+   [+$num])
+   echo "Using Switch Case - Number is Positive"
    ;;
-   [ $num -eq 0 ])
-   echo "Class : Distiction"
+   -[$num])
+   echo "Using Switch Case - Number is Negative"
    ;;
-   *) echo "Not Good"
+   *) echo "Wrong input..!"
 esac
