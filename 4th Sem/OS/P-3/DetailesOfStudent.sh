@@ -8,11 +8,26 @@
 # City
 # Cgpa
 
-clear
-echo "Name : Pranav Rathod"
-echo "Enroll No. : 91900103062"
-echo "Class : 4TC-1"
-echo "Branch : C.E."
-echo "Batch : Lab-C"
-echo "City : Rajkot"
-echo "CGPA : 7.3"
+echo -n "Enter Your Name : "
+read name
+echo -n "Enter Your Enroll no. : "
+read EnrollNo
+echo -n "Enter Your Class : "
+read Class
+echo -n "Enter Your Branch : "
+read Branch
+echo -n "Enter Your Batch : "
+read Batch
+echo -n "Enter Your City : "
+read City
+echo -n "Enter Your CGPA : "
+read CGPA
+
+
+echo "Name : $name"
+echo "Enroll No. : $EnrollNo"
+echo "Class : $Class"
+echo "Branch : $Branch"
+echo "Batch : $Batch"
+echo "City : $City"
+echo "CGPA : $CGPA"
