@@ -8,6 +8,8 @@
 # City
 # Cgpa
 
+echo "Pranav Rathod : 91900103062"
+
 echo -n "Enter Your Name : "
 read name
 echo -n "Enter Your Enroll no. : "
