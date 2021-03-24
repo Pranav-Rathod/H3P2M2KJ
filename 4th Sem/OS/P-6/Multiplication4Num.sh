@@ -1,5 +1,5 @@
 
-# Write a shell script to add 3 nos
+# Write a shell script to multiply four nos.
 
 clear
 echo "Name : Pranav Rathod"

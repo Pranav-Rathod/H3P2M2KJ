@@ -1,5 +1,5 @@
 
-# Write a shell script to add 3 nos
+# Write a shell script to divide two nos.
 
 clear
 echo "Name : Pranav Rathod"
