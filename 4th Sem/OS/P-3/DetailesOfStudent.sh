@@ -25,6 +25,7 @@ read City
 echo -n "Enter Your CGPA : "
 read CGPA
 
+echo -e "\n\n"
 
 echo "Name : $name"
 echo "Enroll No. : $EnrollNo"
