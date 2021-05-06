@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 #include<math.h>
 
 float calc_a(float x, float y, float x2, float xy, int n)
@@ -15,7 +16,8 @@ int main()
 {
     int n;
 
-    printf("Enter the value of N : ");
+    system("cls");
+    printf("\nEnter the value of N : ");
     scanf("%d", &n);
     
     float x[n], y[n], sum_x=0, sum_y=0, sum_x2=0, sum_xy=0; 

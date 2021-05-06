@@ -5,12 +5,12 @@
 
 float f(float x)
 {
-    return(pow(x,3)-x-11);
+    return((3*x)-cos(x)-1);
 }
 
 float derivation(float x)
 {
-    return(3*pow(x,2)-1);
+    return(3+sin(x));
 }
 
 void main()
