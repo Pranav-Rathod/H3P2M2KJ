@@ -7,6 +7,7 @@ public class CountWordFile
     {
         Scanner s = new Scanner(System.in);
 
+        System.out.println("\033[H\033[2J");
         System.out.print("Enter File Name : ");
         String input = s.next();
         s.close();
@@ -14,7 +15,7 @@ public class CountWordFile
         // Scanner in = new Scanner(f);
         FileInputStream fin = new FileInputStream(input);
         Scanner in = new Scanner(fin);
-        System.out.println("Size of file is : " + fin.available());
+        System.out.println("Size of file is : " + fin.available() + " Bytes");
         
         int word=0;
         

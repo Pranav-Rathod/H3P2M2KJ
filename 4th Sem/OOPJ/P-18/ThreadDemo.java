@@ -41,6 +41,7 @@ class ThreadDemo
 {
     public static void main(String[] args)
     {
+        System.out.println("\033[H\033[2J");
         Printing p = new Printing();
         ThreadExp thx = new ThreadExp(p,15);
         thx.run();
