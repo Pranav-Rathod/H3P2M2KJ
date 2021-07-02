@@ -14,7 +14,7 @@ public class IpDemo
         in.close();
         
         InetAddress getIP = InetAddress.getByName(url);
-        System.out.println("IP is : " + getIP);
+        System.out.println("IP of Yahoo is : " + getIP);
 
         InetAddress sysName = InetAddress.getLocalHost();
         System.out.println("Host Name : " + sysName);
