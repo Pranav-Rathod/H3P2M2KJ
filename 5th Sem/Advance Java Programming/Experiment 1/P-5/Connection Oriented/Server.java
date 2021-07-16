@@ -11,7 +11,7 @@ public class Server
         DataInputStream din = new DataInputStream(client.getInputStream());
         String str = (String)din.readUTF();
         
-        int charcnt=0,digicnt=0;
+        int charcnt=0,digicnt=0,space=0;
         for(int i=0 ; i<str.length() ; i++)
         {
             if((str.charAt(i) >= 'a' && str.charAt(i) <= 'z') || (str.charAt(i) >= 'A' && str.charAt(i) <= 'Z'))
@@ -22,11 +22,16 @@ public class Server
             {
                 digicnt++;
             }
+            else if(str.charAt(i) >= ' ')
+            {
+                space++;
+            }
         }
 
         DataOutputStream dout = new DataOutputStream(client.getOutputStream());
         dout.writeInt(charcnt);
         dout.writeInt(digicnt);
+        dout.writeInt(space);
 
         din.close();
         dout.close();

@@ -11,7 +11,7 @@ public class Client
 
         DataOutputStream dout = new DataOutputStream(client.getOutputStream());
         
-        System.out.println("Enter Your String : ");
+        System.out.print("Enter Your String : ");
         String input = in.nextLine();
         dout.writeUTF(input);
         dout.flush();
@@ -19,9 +19,11 @@ public class Client
         DataInputStream din = new DataInputStream(client.getInputStream());
         int charcnt = din.readInt();
         int digicnt = din.readInt();
+        int space = din.readInt();
 
         System.out.println("Number of charecter : " + charcnt);
-        System.out.println("Number of Digits : " + digicnt);
+        System.out.println("Number of digits : " + digicnt);
+        System.out.println("Number of spaces : " + space);
 
         in.close();
         din.close();

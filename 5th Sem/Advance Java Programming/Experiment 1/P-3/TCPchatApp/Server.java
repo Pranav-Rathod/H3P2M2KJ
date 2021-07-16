@@ -15,14 +15,17 @@ public class Server
 
         String input="", output="";
 
+        System.out.println("\033[H\033[2J");
+        System.out.println("\tServer\n=======================\n\n");
+
         while(!input.equals("stop"))
         {
             output = (String)din.readUTF();
-            System.out.print("Client Says : " + output);
-            System.out.println("");
+            System.out.println("Client Says : " + output);
             
             System.out.print("Enter Msg. for Client : ");
             input = in.nextLine();
+            System.out.println("");
             dout.writeUTF(input);
             dout.flush();
         }
