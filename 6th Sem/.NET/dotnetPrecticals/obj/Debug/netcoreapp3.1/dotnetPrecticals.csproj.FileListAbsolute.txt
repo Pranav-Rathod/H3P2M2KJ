@@ -1,0 +1,14 @@
+D:\E-Drive\Documents\Marwadi University\VS\Persnol\6th Sem\.NET\dotnetPrecticals\obj\Debug\netcoreapp3.1\dotnetPrecticals.csproj.AssemblyReference.cache
+D:\E-Drive\Documents\Marwadi University\VS\Persnol\6th Sem\.NET\dotnetPrecticals\obj\Debug\netcoreapp3.1\dotnetPrecticals.GeneratedMSBuildEditorConfig.editorconfig
+D:\E-Drive\Documents\Marwadi University\VS\Persnol\6th Sem\.NET\dotnetPrecticals\obj\Debug\netcoreapp3.1\dotnetPrecticals.AssemblyInfoInputs.cache
+D:\E-Drive\Documents\Marwadi University\VS\Persnol\6th Sem\.NET\dotnetPrecticals\obj\Debug\netcoreapp3.1\dotnetPrecticals.AssemblyInfo.cs
+D:\E-Drive\Documents\Marwadi University\VS\Persnol\6th Sem\.NET\dotnetPrecticals\obj\Debug\netcoreapp3.1\dotnetPrecticals.csproj.CoreCompileInputs.cache
+D:\E-Drive\Documents\Marwadi University\VS\Persnol\6th Sem\.NET\dotnetPrecticals\bin\Debug\netcoreapp3.1\dotnetPrecticals.exe
+D:\E-Drive\Documents\Marwadi University\VS\Persnol\6th Sem\.NET\dotnetPrecticals\bin\Debug\netcoreapp3.1\dotnetPrecticals.deps.json
+D:\E-Drive\Documents\Marwadi University\VS\Persnol\6th Sem\.NET\dotnetPrecticals\bin\Debug\netcoreapp3.1\dotnetPrecticals.runtimeconfig.json
+D:\E-Drive\Documents\Marwadi University\VS\Persnol\6th Sem\.NET\dotnetPrecticals\bin\Debug\netcoreapp3.1\dotnetPrecticals.runtimeconfig.dev.json
+D:\E-Drive\Documents\Marwadi University\VS\Persnol\6th Sem\.NET\dotnetPrecticals\bin\Debug\netcoreapp3.1\dotnetPrecticals.dll
+D:\E-Drive\Documents\Marwadi University\VS\Persnol\6th Sem\.NET\dotnetPrecticals\bin\Debug\netcoreapp3.1\dotnetPrecticals.pdb
+D:\E-Drive\Documents\Marwadi University\VS\Persnol\6th Sem\.NET\dotnetPrecticals\obj\Debug\netcoreapp3.1\dotnetPrecticals.dll
+D:\E-Drive\Documents\Marwadi University\VS\Persnol\6th Sem\.NET\dotnetPrecticals\obj\Debug\netcoreapp3.1\dotnetPrecticals.pdb
+D:\E-Drive\Documents\Marwadi University\VS\Persnol\6th Sem\.NET\dotnetPrecticals\obj\Debug\netcoreapp3.1\dotnetPrecticals.genruntimeconfig.cache
