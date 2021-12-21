@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "VglkQ92hJ4lBApqEYGMU0OdiDwLp6tCK6l3F2KaYFFQ5C5BzH6ImMgyj4YlgKY/isB9qOczRZ+gqiJskH/ESQg==",
+  "dgSpecHash": "6bZFrRMau1jYi8PpgQxIgHugGLGhOlhnZywmXapkajxyuMZnDoW2idwRU4S21gTYWSDy0DUcxzezfvpZYs3I9g==",
   "success": true,
   "projectFilePath": "D:\\E-Drive\\Documents\\Marwadi University\\VS\\Persnol\\6th Sem\\.NET\\dotnetPrecticals\\dotnetPrecticals.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Pranav\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+  ],
   "logs": []
 }

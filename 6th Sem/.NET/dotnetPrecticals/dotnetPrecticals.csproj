@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <StartupObject>dotnetPrecticals.Program</StartupObject>
+    <StartupObject>dotnetPrecticals.Exp_2_C</StartupObject>
   </PropertyGroup>
 
 </Project>
