@@ -7,7 +7,7 @@ namespace dotnetPrecticals
         public static void Main()
         {
             Console.Clear();
-            Console.Write("Enter number 1 : ");
+            Console.Write("Enter numbr 1 : ");
             int num1 = Convert.ToInt32(Console.ReadLine());
 
             Console.Write("Enter number 2 : ");
